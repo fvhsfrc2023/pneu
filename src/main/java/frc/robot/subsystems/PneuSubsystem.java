@@ -17,8 +17,8 @@ public class PneuSubsystem extends SubsystemBase {
   /** Creates a new ExampleSubsystem. */
   public PneuSubsystem() {
 
-    exampleDouble = new DoubleSolenoid(PneumaticsModuleType.REVPH, 15, 3);
-    exampleDouble.set(DoubleSolenoid.Value.kForward)
+    exampleDouble = new DoubleSolenoid(PneumaticsModuleType.REVPH, 15, 12);
+    exampleDouble.set(DoubleSolenoid.Value.kForward);
   }
 
   @Override
